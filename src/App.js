@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// Import Components
+import Header from "./components/Header";
+import Article from "./components/Article";
+// Import data
+import data from "./data";
+// Import Images
+import alaskaImg from "./images/alaska.webp";
+import antarcticaImg from "./images/antarctica.jpeg";
+import constantaImg from "./images/constanta.jpg";
+import icelandImg from "./images/iceland.png";
+import moldovaImg from "./images/moldova.webp";
+import newYorkImg from "./images/new-york.png";
 
-function App() {
+const ImagesArr = [
+  newYorkImg,
+  alaskaImg,
+  antarcticaImg,
+  icelandImg,
+  constantaImg,
+  moldovaImg,
+];
+
+export default function App() {
+  const loadData = data.map((item, index) => {
+    return <Article key={item.id} item={item} itemImage={ImagesArr[index]} />;
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app--wrapper">
+      <Header />
+      <div>{loadData}</div>
     </div>
   );
 }
-
-export default App;
