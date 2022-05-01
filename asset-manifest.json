@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/travel--journal/static/css/main.1a9ab00f.css",
+    "main.js": "/travel--journal/static/js/main.2ab10e6c.js",
+    "static/media/iceland.png": "/travel--journal/static/media/iceland.327da03b6f4e73f0c7fc.png",
+    "static/media/constanta.jpg": "/travel--journal/static/media/constanta.1d2b5e2c09a87f6735a6.jpg",
+    "static/media/antarctica.jpeg": "/travel--journal/static/media/antarctica.94b627bfd5e913ea7f02.jpeg",
+    "static/media/moldova.webp": "/travel--journal/static/media/moldova.e429ee9124f09c467ac2.webp",
+    "static/media/alaska.webp": "/travel--journal/static/media/alaska.2f570e183d2f1301c1e2.webp",
+    "static/media/new-york.png": "/travel--journal/static/media/new-york.2a39c543df871dc097d6.png",
+    "index.html": "/travel--journal/index.html",
+    "main.1a9ab00f.css.map": "/travel--journal/static/css/main.1a9ab00f.css.map",
+    "main.2ab10e6c.js.map": "/travel--journal/static/js/main.2ab10e6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a9ab00f.css",
+    "static/js/main.2ab10e6c.js"
+  ]
+}
